@@ -1,41 +1,78 @@
-# Prerequisites
-*.d
+# -------------------------
+# Build and CMake Artifacts
+# -------------------------
+/build/
+/CMakeFiles/
+/CMakeCache.txt
+/cmake_install.cmake
+/Makefile
+compile_commands.json
 
-# Compiled Object files
-*.slo
-*.lo
+# -------------------------
+# Compiled Object Files
+# -------------------------
 *.o
 *.obj
+*.lo
+*.la
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
+# -------------------------
+# Compiled Binary Files
+# -------------------------
+*.out
+*.exe
+*.dll
 *.so
 *.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
 *.a
 *.lib
 
-# Executables
-*.exe
-*.out
-*.app
+# -------------------------
+# Logs and Dumps
+# -------------------------
+*.log
+*.trace
+*.dSYM/
+*.core
+*.stackdump
 
-# debug information files
-*.dwo
+# -------------------------
+# Editor/IDE Files
+# -------------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# -------------------------
+# OS-Specific Files
+# -------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# -------------------------
+# Testing / Coverage
+# -------------------------
+*.gcno
+*.gcda
+*.gcov
+*.lcov
+coverage/
+test-results/
+
+# -------------------------
+# Generated Documentation
+# -------------------------
+/docs/
+/html/
+/latex/
+
+# -------------------------
+# Packet Capture Files
+# -------------------------
+*.pcap
+*.pcapng
