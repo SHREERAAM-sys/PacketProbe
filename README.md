@@ -1,7 +1,7 @@
 # PacketProbe 🚀
 
 A lightweight Linux-native packet sniffer written in **C++17**, using **raw sockets**, **RAII**, and **STL**.  
-Captures Ethernet, IP, TCP, and UDP headers — built with **CMake**, documented with **Doxygen**, and designed with **industry practices**.  
+Captures Ethernet, IP, TCP, and UDP headers built with **CMake**, and designed with **industry practices**.  
 Now supports saving captured packets into **PCAP format** for analysis in **Wireshark** or **tshark**.
 
 ---
